@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    background-color: #baddfdaf;
+}
+
+.container{
+    width: 600px;
+    margin: 0 auto;
+    padding: 10px 10px;
+      
+}
+
+.background{
+    background-color: #7979f1;
+}
+.main-background{
+    background-color: #fff;
+}
+.chat-header{
+    padding-top: 40px;
+}
+
+.header-list{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.header-title::before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: bold;
+}
+
+.header-item:nth-child(1){
+   
+}
+.header-title{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+
+}
+
+
+
+.mark-inner{
+    padding: 20px 15px;
+  
+}
+.today-hr{
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+.hr{
+    width: 235px;
+    height: 2px;
+    opacity: 0.5;
+    
+
+}
+.today-text{
+    text-align: center;
+    align-items: center;
+    opacity: 0.2;
+    margin-right: 15px;
+}
+.today-hr-right{
+    margin-right: 15px;
+} 
+
+.box{
+    padding: 20px 15px;
+
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+.time{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.gray-time{
+    justify-content: end;
+}
+
+.chat-list-text{
+    border: 8px;
+    border-radius: 5px;
+    color:black;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+}
+.blue-item-chat{
+    padding: 10px 30px 10px 10px;
+    background-color: #a1d4d263;
+    width: 400px;
+}
+.chat-list{
+    width: 520px;
+}
+
+.gray-item-chat{
+    padding: 10px 30px 10px 10px;
+    background-color: rgb(221, 215, 215);
+    width: 400px;
+    margin-left: auto;
+}
+.green-item-chat{
+    padding: 10px;
+    background-color: #a1d4d263;
+    width: 120px;
+}
+.pink-item-chat{
+    padding: 10px;
+    background-color: pink;
+    width: 270px;
+    margin-left: auto;
+}
+.gray-time{
+    margin-left: auto;
+}
+.pink-time{
+    margin-left: auto;
+}
+
+.finally-footer{
+    padding-bottom: 30px;
+}
+.background-finally{
+    background-color: #fff;
+}
+
+.finally-block{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+.finally-text{
+    opacity: 0.5;
+    background-color: transparent;
+    border: none;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    outline: none;
+}     
+
+.finally-button{
+    text-transform: capitalize;
+    background-color: transparent;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    color: #6eb7ff;
+    outline: none;
+}
